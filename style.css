@@ -37,3 +37,31 @@ body {
   background-position: right;
   padding-right: 10px 40px;
 }
+.experience-area {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+h3 {
+  font-size: 30px;
+}
+.experience-item {
+  width: 40%;
+  margin: 0 5%;
+  box-shadow: 10px 10px 30px gray;
+  padding-left: 20px;
+  border-radius: 10px;
+}
+#exp {
+  border-image: linear-gradient(blue, skyblue);
+  border-left: 7px solid;
+  border-image-slice: 1;
+}
+#baby {
+  border-image: linear-gradient(green, lightgreen);
+  border-left: 7px solid;
+  border-image-slice: 1;
+}
+footer p {
+  text-align: center;
+}
